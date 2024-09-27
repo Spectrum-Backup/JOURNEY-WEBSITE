@@ -118,6 +118,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 5rem;
 
     .content{
         text-align: center;
@@ -180,6 +181,19 @@ body{
     }
     #menu-btn{
         display: inline-block;
+    }
+
+    .home{
+        margin-top: 10rem;
+
+        .content{
+            span{
+                font-size: 8vw;
+            }
+            h3{
+                font-size: 9vw;
+            }
+        }
     }
 }
 @media (max-width:450px) {
